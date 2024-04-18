@@ -6,12 +6,12 @@ const inputHeight = document.querySelector('#height')
 
 const modalWrapper = document.querySelector('.modal-wrapper')
 
-const modalMessage = document.querySelector('.modal .close span')
+const modalMessage = document.querySelector('.modal .title span')
 const modalBtnClose = document.querySelector('.modal button.close')
 
 
 modalWrapper.classList.add('open');
-modalMessage.innerText = "qualquer coisa"
+modalMessage.innerText = "oi"
 
 
 
